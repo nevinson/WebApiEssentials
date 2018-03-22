@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\Auth\" />
     <Folder Include="Extensions\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Controllers\" />
