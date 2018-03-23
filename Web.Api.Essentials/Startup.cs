@@ -40,7 +40,7 @@ namespace Web.Api.Essentials
 
             services.AddDbContext<ApplicationDbContext>(options =>
                         options.UseSqlServer(Configuration.GetConnectionString("WebApiEssentials"),
-                        b => b.MigrationsAssembly("Web.Api.Essentials.Data")));
+                        b => b.MigrationsAssembly("Web.Api.Essentials")));
 
             services.AddSingleton<IJwtFactory, JwtFactory>();
 
