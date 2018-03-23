@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Extensions\" />
-    <Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\Validations\" />
+    <Folder Include="ViewModels\Mappings\" />
     <Folder Include="Controllers\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
